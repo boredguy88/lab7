@@ -19,7 +19,6 @@ exports.view = function(req, res){
 		res.render('index', projects);
 	}
 	else{
-		projects["grid"] = true;
 		res.redirect('/grid');
 	}
 };
